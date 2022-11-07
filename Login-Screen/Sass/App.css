@@ -1,0 +1,140 @@
+@import url("https://fonts.googleapis.com/css2?family=Abel&family=Albert+Sans:wght@100;200;300;400;500;600;700;800;900&family=Alumni+Sans+Pinstripe&family=DM+Sans&family=Dancing+Script:wght@400;500;600;700&family=Edu+VIC+WA+NT+Beginner&family=Fira+Code:wght@300;400;500;600;700&family=Inter:wght@100;200;400;500&family=Lato:wght@100;300;400;700;900&family=Poppins:wght@100;200;300;400&family=Quicksand:wght@300;400;600&family=Raleway:wght@100;200&family=Roboto+Mono:wght@100;200;300;400;500;600;700&family=Roboto:wght@300&family=Russo+One&family=Work+Sans:wght@300;500;600&display=swap");
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css");
+.login-box-main, .login-box-main .login-box-input {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  outline: none;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  width: 100%;
+  height: 100vh;
+  background: #7F00FF;
+  /* fallback for old browsers */
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: -webkit-gradient(linear, left top, right top, from(#E100FF), to(#7F00FF));
+  background: linear-gradient(to right, #E100FF, #7F00FF);
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  display: -ms-grid;
+  display: grid;
+  place-items: center;
+}
+
+.login-box-main {
+  width: 500px;
+  height: 500px;
+  border-radius: 0.5rem;
+  background: rgba(255, 255, 255, 0.527);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  position: relative;
+}
+
+.login-box-main .login-box-header-text {
+  width: 100%;
+  height: 80px;
+  display: -ms-grid;
+  display: grid;
+  place-items: center;
+}
+
+.login-box-main .login-box-header-text .header-text-1 {
+  color: white;
+  font-size: 2.5rem;
+}
+
+.login-box-main .login-box-header-text h4 {
+  color: rgba(242, 242, 242, 0.738);
+}
+
+.login-box-main .login-box-input {
+  width: 100%;
+  height: 200px;
+  gap: 25px;
+  position: relative;
+}
+
+.login-box-main .login-box-input input {
+  width: 350px;
+  height: 47px;
+  border: none;
+  padding: 0 10px;
+  border-radius: 0.3rem;
+  background-color: #eeeeee;
+  color: #444444;
+  -webkit-transition: .3s all;
+  transition: .3s all;
+  font-size: 16px;
+}
+
+.login-box-main .login-box-input input:hover, .login-box-main .login-box-input input:focus {
+  -webkit-box-shadow: 0 0 5px #a600ff;
+          box-shadow: 0 0 5px #a600ff;
+}
+
+.login-box-main .login-box-input input::-webkit-input-placeholder {
+  color: #9f9f9f;
+}
+
+.login-box-main .login-box-input input:-ms-input-placeholder {
+  color: #9f9f9f;
+}
+
+.login-box-main .login-box-input input::-ms-input-placeholder {
+  color: #9f9f9f;
+}
+
+.login-box-main .login-box-input input::placeholder {
+  color: #9f9f9f;
+}
+
+.login-box-main .login-box-input .hide-show {
+  border: none;
+  width: 30px;
+  height: 30px;
+  cursor: pointer;
+  background-color: #eeeeee;
+  position: absolute;
+  top: 120px;
+  right: 85px;
+}
+
+.login-box-main .login-box-input .hide-show i {
+  font-size: 1.5rem;
+  color: #7c7c7c;
+}
+
+.login-box-main .login-btn {
+  width: 250px;
+  height: 56px;
+  border: none;
+  background: #E100FF;
+  color: white;
+  cursor: pointer;
+  font-size: 16px;
+  border-radius: 0.4rem;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+}
+/*# sourceMappingURL=App.css.map */
